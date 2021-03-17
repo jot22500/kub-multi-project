@@ -21,7 +21,7 @@ spec:
         app: sa-web-app
     spec:
       containers:
-      - image: basilvarghese/sa-webapp:3.0.1
+      - image: basilvarghese/sa-webapp:latest
         imagePullPolicy: Always
         name: sa-web-app
         env:
